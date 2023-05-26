@@ -6,7 +6,7 @@ function Navbar() {
     <>
     <header>
      <nav>
-          <div>
+          <div className='start'>
                <p>We believe we helps people</p>
                <p>for happier lives</p>
           </div>
@@ -20,10 +20,10 @@ function Navbar() {
      </nav>
      <div className='link-elements'>
           <ul>
-               <Link>
+               <Link to=''>
                     <li>HOME</li>
                </Link>
-               <Link>
+               <Link  to = '/add'>
                     <li>ADD</li>
                </Link>
                <Link>

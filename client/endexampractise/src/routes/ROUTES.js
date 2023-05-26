@@ -17,7 +17,7 @@ export const ROUTES = [
                     element:<Add/>
                },
                {
-                    path:'details',
+                    path:'details/:id',
                     element:<Details/>
                }
           ]
